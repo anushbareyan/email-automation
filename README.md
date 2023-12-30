@@ -1,4 +1,4 @@
-# email-automation
+# Email Automation Program
 This Python script automates the process of sending emails to multiple recipients using Gmail's SMTP server. It reads recipient email addresses from a file named `your_data.txt` and sends emails with attachments to those addresses. I created the program to do a freelance work - send automated emails for the customers. I researched and came up with a refined version that sends emails one by one and not including other recipients in the email. Also, added logs to see which emails were failed to send. Because of Gmail restrictions, added a timer to send the emails after some time not to be marked as spam.
 
 ### Prerequisites:
